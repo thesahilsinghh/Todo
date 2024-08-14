@@ -1,0 +1,26 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "TODO Api",
+      "description": "A TODO api for admins to get upto date on different tasks assigned to different users",
+      "version": "1.0.0"
+    },
+    "host": "localhost:3100",
+    "securityDefinitions": {
+      "JWT": {
+        "in": "body",
+        "name": "payload",
+        "type": "apiKey"
+      }
+    },
+    "paths": {
+      "/api/user/": {
+        "get": {
+          "tags": ["Task"],
+          "summary": "Get Tasks",
+          "description": "User will get all tasks"
+        }
+      }
+    }
+  }
+  
