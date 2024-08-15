@@ -11,13 +11,13 @@
         <pre><code>npm i</code></pre>
     </li>
     <li>Create a <code>.env</code> file with database and JWT configurations:
-        <pre><code>{
+        <pre><code>
 DB_HOST="___________"
 DB_USER="__________"
 DB_PASSWORD="_______"
 DB_NAME="________"
 JWT_SECRET="_____________"
-}</code></pre>
+</code></pre>
     </li>
     <li>Start the server:
         <pre><code>node server.js</code></pre>
