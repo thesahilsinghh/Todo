@@ -36,8 +36,8 @@ JWT_SECRET="_____________"
 <ul>
     <li><strong>GET</strong> /api/tasks/ - Get tasks (filter by status, priority, due date)</li>
     <li><strong>POST</strong> /api/tasks/ - Add a new task</li>
-    <li><strong>PUT</strong> /api/tasks/:id - Update a task</li>
-    <li><strong>DELETE</strong> /api/tasks/:id - Delete a task</li>
+    <li><strong>PUT</strong> /api/tasks/update - Update a task(task id with it's update should be passed in body)</li>
+    <li><strong>DELETE</strong> /api/tasks/delete - Delete a task(task id should be passed in body)</li>
 </ul>
 
 </body>
