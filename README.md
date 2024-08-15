@@ -4,6 +4,7 @@
 
 <p>A simple API for managing tasks, including user authentication and task operations.</p>
 
+<div>Please note Swagger documention is incomplete and in progress</div>
 <h2>Setup</h2>
 
 <ol>
